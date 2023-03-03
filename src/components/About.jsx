@@ -8,10 +8,10 @@ const About = () => {
         <img src={MyPhoto} alt="" className="about-img" />
       </div>
       <div className="text">
-        <h1>Şadi KIŞLAR</h1>
-        <h2>Fullstack Developer</h2>
+        <h1>Cihat ÇOPUR</h1>
+        <h2>Frontend Developer</h2>
         <p>
-          Having 4+ years experienced in IT and 1+ an expert front-end
+          Having 2+ years experienced in IT and 1+ an expert front-end
           developer, interested in writing codes, skilled at developing complex
           solutions, creating responsive designs, possessing strong creative
           thinking skills, high energy and integrity. Ability to create
