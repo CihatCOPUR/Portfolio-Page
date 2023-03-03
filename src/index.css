@@ -11,13 +11,13 @@
   justify-content: space-between;
   padding: 0px 60px 0px 60px;
   font-size: x-large;
-  text-align: center;}
+  text-align: center;
+}
 
-.navbar ul{
+.navbar ul {
   margin-right: 3rem;
   display: flex;
   margin: auto;
-    
 }
 
 li {
@@ -28,7 +28,7 @@ li {
 
 .menu {
   display: flex;
- justify-content: center; 
+  justify-content: center;
 }
 
 .name {
@@ -36,14 +36,12 @@ li {
   align-items: center;
 }
 
-
 /* ----------------------- about ---------------*/
 
 .about {
   height: 550px;
   background-color: bisque;
   display: flex;
-
 }
 
 .image {
@@ -53,7 +51,6 @@ li {
 .about-img {
   width: auto;
   height: 100%;
-
 }
 
 .text {
@@ -62,9 +59,7 @@ li {
   align-items: center;
   display: inline-block;
   align-items: center;
-
 }
- 
 
 /* ----------------------- skills ---------------*/
 .skills {
@@ -72,13 +67,11 @@ li {
   background-color: blueviolet;
 }
 
-
 /* ----------------------- projects ---------------*/
 .projects {
   height: 800px;
   background-color: cadetblue;
 }
-
 
 /* ----------------------- contacts ---------------*/
 .contacts {
@@ -86,11 +79,15 @@ li {
   background-color: chartreuse;
 }
 
-
 /* ----------------------- footer ---------------*/
 
 .footer {
-  height: 50px;
+  display: inline-block;
   background-color: darkgray;
 }
-
+.footer_container {
+  display: flex;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
