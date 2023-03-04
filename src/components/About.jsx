@@ -9,7 +9,9 @@ const About = () => {
       </div>
       <div className="text">
         <h1>Cihat ÇOPUR</h1>
+        <br />
         <h2>Frontend Developer</h2>
+        <br />
         <p>
           Having 2+ years experienced in IT and 1+ an expert front-end
           developer, interested in writing codes, skilled at developing complex
