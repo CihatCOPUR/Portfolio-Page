@@ -1,6 +1,9 @@
 import React from "react";
 import proje1 from "../assets/projects/1.png";
 import proje2 from "../assets/projects/2.png";
+import proje3 from "../assets/projects/3.png";
+import proje4 from "../assets/projects/4.png";
+import proje5 from "../assets/projects/5.png";
 
 const Projects = () => {
   return (
@@ -23,23 +26,17 @@ const Projects = () => {
           href="https://cihatcopur.github.io/Team-Members-Page-/"
           target="_blank"
         >
-          <img src={proje1} alt="proje1" width="100%" height="100%" />
+          <img src={proje3} alt="proje1" width="100%" height="100%" />
         </a>
       </div>
       <div className="project p4">
-        <a
-          href="https://cihatcopur.github.io/Team-Members-Page-/"
-          target="_blank"
-        >
-          <img src={proje1} alt="proje1" width="100%" height="100%" />
+        <a href="https://zesty-rolypoly-f06b46.netlify.app/" target="_blank">
+          <img src={proje4} alt="proje1" width="100%" height="100%" />
         </a>
       </div>
       <div className="project p5">
-        <a
-          href="https://cihatcopur.github.io/Team-Members-Page-/"
-          target="_blank"
-        >
-          <img src={proje1} alt="proje1" width="100%" height="100%" />
+        <a href="https://cihatcopur.github.io/Calculater-2/" target="_blank">
+          <img src={proje5} alt="proje1" width="100%" height="100%" />
         </a>
       </div>
       <div className="project p6">
