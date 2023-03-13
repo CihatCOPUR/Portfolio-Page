@@ -121,6 +121,7 @@ const Projects = () => {
           target="_blank"
         >
           <img src={proje1} alt="proje1" width="100%" height="100%" />
+          <img src={proje1} alt="proje1" width="100%" height="100%" />
         </a>
       </div>
     </div>
