@@ -1,4 +1,6 @@
 import React from "react";
+import Footer from "./Footer";
+import Link from "react";
 
 const Navbar = () => {
   return (
@@ -12,11 +14,11 @@ const Navbar = () => {
           </li>
           <li>
             {" "}
-            <a href="#"></a> Skills
+            <a href="#">Skills</a>
           </li>
           <li>
             {" "}
-            <a href="#"></a> Projects
+            <a href="#">Projects</a>
           </li>
           <li>
             {" "}
