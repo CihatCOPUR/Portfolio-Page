@@ -43,7 +43,27 @@ const Contacts = () => {
           </svg>
         </a>
       </div>
-      <div className="contactMessage"></div>
+      <div className="contactMessage">
+        <h1>Send me an email</h1>
+        <label htmlFor="Name">Name:</label>
+        <input type="text" name="Name" id="" placeholder="Enter your name" />
+        <label htmlFor="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id=""
+          placeholder="Enter your email"
+        />{" "}
+        <br />
+        <textarea
+          name="textarea"
+          id=""
+          placeholder="Enter your message"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <button>Submit</button>
+      </div>
     </div>
   );
 };

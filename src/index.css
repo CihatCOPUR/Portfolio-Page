@@ -145,6 +145,7 @@ center h1 {
 .contact {
   height: 550px;
   background-color: rgb(245, 249, 241);
+  display: flex;
 }
 .contactLogo {
   display: flex;
@@ -154,10 +155,53 @@ center h1 {
   width: 20%;
 }
 .contactLogo svg {
-  margin-top: 4rem;
-  margin-left: 12px;
+  margin-top: 3rem;
+  margin-left: 10rem;
 }
-
+.contactMessage {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  margin-top: 4rem;
+  width: 45%;
+  margin-right: 10%;
+  margin-left: 9%;
+  background-color: antiquewhite;
+  box-shadow: 5px 5px 5px 4px grey;
+  border-radius: 5px;
+}
+.contactMessage input {
+  padding: 6px;
+  border-radius: 5px;
+  background-color: rgb(232, 230, 230);
+  width: 45%;
+  margin-left: 25%;
+}
+.contactMessage h1 {
+  margin-left: 25%;
+  font-weight: 700;
+}
+.contactMessage label {
+  margin-left: 25%;
+  font-weight: 700;
+}
+.contactMessage textarea {
+  padding: 6px;
+  border-radius: 5px;
+  background-color: rgb(232, 230, 230);
+  width: 45%;
+  margin-left: 25%;
+}
+.contactMessage button {
+  width: 25%;
+  margin-top: 1rem;
+  margin-left: 45%;
+  padding: 1%;
+  border-radius: 5px;
+  background-color: rgb(67, 67, 246);
+  font-weight: 900;
+}
 /* ----------------------- footer ---------------*/
 
 .footer {
