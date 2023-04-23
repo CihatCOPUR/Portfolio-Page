@@ -137,8 +137,12 @@ li {
   height: 30%;
   border: 2px solid darkblue;
 }
+
+center h1 {
+  color: wheat;
+}
 /* ----------------------- contacts ---------------*/
-.contacts {
+.contact {
   height: 550px;
   background-color: chartreuse;
 }

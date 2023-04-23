@@ -8,9 +8,9 @@ import proje6 from "../assets/projects/6.png";
 import proje7 from "../assets/projects/7.png";
 import proje8 from "../assets/projects/8.png";
 import proje9 from "../assets/projects/9.png";
-// import proje10 from "../assets/projects/10.png";
-
-//3. sitede adresi düzelt-----------------------------
+import proje10 from "../assets/projects/10.png";
+import proje11 from "../assets/projects/11.png";
+import proje12 from "../assets/projects/12.mp4";
 
 const Projects = () => {
   return (
@@ -30,7 +30,7 @@ const Projects = () => {
       </div>
       <div className="project p3">
         <a
-          href="https://cihatcopur.github.io/Team-Members-Page-/"
+          href="https://capable-arithmetic-c550e5.netlify.app/"
           target="_blank"
         >
           <img src={proje3} alt="proje1" width="100%" height="100%" />
@@ -77,52 +77,39 @@ const Projects = () => {
       </div>
       <div className="project p10">
         <a
-          href="https://cihatcopur.github.io/Random-people-----------------REACT/"
+          href="https://cihatcopur.github.io/Todo-Project--2------JavaScript/"
           target="_blank"
         >
-          {/* <img src={proje10} alt="proje1" width="100%" height="100%" /> */}
+          <img src={proje10} alt="proje1" width="100%" height="100%" />
         </a>
       </div>
       <div className="project p11">
         <a
-          href="https://cihatcopur.github.io/Team-Members-Page-/"
+          href="https://cihatcopur.github.io/Number-guess-game--JavaScript/"
           target="_blank"
         >
-          <img src={proje1} alt="proje1" width="100%" height="100%" />
+          <img src={proje11} alt="proje11" width="100%" height="100%" />
         </a>
       </div>
       <div className="project p12">
-        <a
-          href="https://cihatcopur.github.io/Team-Members-Page-/"
-          target="_blank"
-        >
-          <img src={proje1} alt="proje1" width="100%" height="100%" />
+        <a href="#" target="_blank">
+          <video src={proje12} width="100%" height="100%"></video>
         </a>
       </div>
       <div className="project p13">
-        <a
-          href="https://cihatcopur.github.io/Team-Members-Page-/"
-          target="_blank"
-        >
-          <img src={proje1} alt="proje1" width="100%" height="100%" />
-        </a>
+        <center>
+          <h1 className=" color;red">Coming Soon</h1>
+        </center>
       </div>
       <div className="project p14">
-        <a
-          href="https://cihatcopur.github.io/Team-Members-Page-/"
-          target="_blank"
-        >
-          <img src={proje1} alt="proje1" width="100%" height="100%" />
-        </a>
+        <center>
+          <h1>Coming Soon</h1>
+        </center>
       </div>
       <div className="project p15">
-        <a
-          href="https://cihatcopur.github.io/Team-Members-Page-/"
-          target="_blank"
-        >
-          <img src={proje1} alt="proje1" width="100%" height="100%" />
-          <img src={proje1} alt="proje1" width="100%" height="100%" />
-        </a>
+        <center>
+          <h1>Coming Soon</h1>
+        </center>
       </div>
     </div>
   );
