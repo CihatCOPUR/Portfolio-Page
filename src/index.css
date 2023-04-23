@@ -144,7 +144,17 @@ center h1 {
 /* ----------------------- contacts ---------------*/
 .contact {
   height: 550px;
-  background-color: chartreuse;
+  background-color: rgb(245, 249, 241);
+}
+.contactLogo {
+  display: flex;
+  flex-direction: column;
+  padding-top: 6rem;
+  height: 550px;
+}
+.contactLogo svg {
+  margin-top: 4rem;
+  margin-left: 12px;
 }
 
 /* ----------------------- footer ---------------*/
