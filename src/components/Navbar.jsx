@@ -10,7 +10,7 @@ const Navbar = () => {
         <ul>
           <li>
             {" "}
-            <a href="#">About</a>{" "}
+            <a href="About.jsx">About</a>{" "}
           </li>
           <li>
             {" "}
@@ -18,11 +18,11 @@ const Navbar = () => {
           </li>
           <li>
             {" "}
-            <a href="#">Projects</a>
+            <a href="{Footer}">Projects</a>
           </li>
           <li>
             {" "}
-            <a href="#"></a> Contact
+            <a href=""></a> Contact
           </li>
         </ul>
       </div>

@@ -6,7 +6,8 @@ const Footer = () => {
       <marquee>
         <div class="footer_container">
           <p>Cihat © 2020 All Rights Reserved.</p>
-          <p> ----Tarih ekle----</p>
+          //! boşluk bırakamadım--------------------------
+          <p>{new Date().toLocaleString("tr-TR")}</p>
         </div>
       </marquee>
     </footer>
